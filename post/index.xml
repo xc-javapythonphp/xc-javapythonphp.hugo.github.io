@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://github.com/xc-javapythonphp/xc-javapythonphp.hugoblog.github.io.git/post/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Oct 2020 14:36:13 +0800</lastBuildDate><atom:link href="https://github.com/xc-javapythonphp/xc-javapythonphp.hugoblog.github.io.git/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Howhugoblog</title>
+      <link>https://github.com/xc-javapythonphp/xc-javapythonphp.hugoblog.github.io.git/post/howhugoblog/</link>
+      <pubDate>Thu, 08 Oct 2020 14:36:13 +0800</pubDate>
+      
+      <guid>https://github.com/xc-javapythonphp/xc-javapythonphp.hugoblog.github.io.git/post/howhugoblog/</guid>
+      <description>这篇博客介绍此站点建设的方式 1 安装Hugo hugo下载地址 下载64位，查看hugo是否安装成功
+hugo version 1 2 使用Hugo来生成博客 hugo new site myblog 1 这样我的User/win 10/里面就生成了一个mybolg 文件夹，那么这个文件夹就代表着我们的博客网站 这里需要这一点，我们的电脑上面必须要安装并配置好了Git，配置到用户名和密码就结束了，具体参见廖雪峰教程。我的username 程杨,email 872742416@qq.com
+3 下载并设置主题 点击下载主题这里以 m10c 为例 在myblog目录下运行这一段代码
+git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c 1 然后在myblog/theme下面就有一个m10c的文件夹了，表示我们的主题已经下载完成了
+4 在本地启动个人博客 hugo server -t m10c --buildDrafts 1 这时候就可以通过点击这里（http://localhost:1313/）访问了，但这时候我们的博客网站是空的。
+5 实际写一篇文章 hugo new post/blog.md 1 意思是我们在post目录下创建了一个名为blog的博客文件,他被存放在了content目录下面,content/post/blog.md, .md是 markdown 的缩写,很多博客网站都支持markdown编辑器，比如CSDN 写博客导入这个文件然后进行编辑，也可以下载 markdownPad 还有VScode等等。 我们可以尝试把我的CSDN博客复制一篇放进blog.md 面 然后我们在本地启动，依然是刚才的代码
+hugo server -t m10c --buildDrafts 1 这时候我们的blog.md文件夹就被放进了我们的博客网站，访问刚才的网址就会发现多了一篇博客 到这里我们的博客网站就搭建完成了，但是这个时候我们的博客网站只能在本地访问
+6 将个人博客部署到远端服务器 点击右上角的加号 选择新建仓库 New repository 名称必须是这个利用下面的代码将进行部署</description>
+    </item>
+    
+  </channel>
+</rss>
